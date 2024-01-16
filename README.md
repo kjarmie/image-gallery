@@ -1,1 +1,1 @@
-# image-gallery
+# Lucra Image Gallery with API
