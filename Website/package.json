@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "scripts": {
+    "tw:dev": "npx tailwind build ./wwwroot/css/globals.css -o ./wwwroot/css/globals.min.css",
+    "tw:prod": "npx tailwind build ./wwwroot/css/globals.css -o ./wwwroot/css/globals.min.css --minify"
+  },
+  "devDependencies": {
+    "@types/grunt": "0.4.31",
+    "daisyui": "4.0.7",
+    "grunt": "1.6.1",
+    "grunt-contrib-clean": "2.0.1",
+    "grunt-contrib-copy": "1.0.0",
+    "tailwindcss": "3.4.1"
+  },
+  "dependencies": {
+    "htmx.org": "1.9.10",
+    "jquery": "3.7.1"
+  }
+}
